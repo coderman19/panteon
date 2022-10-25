@@ -1,0 +1,19 @@
+.nav {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+}
+
+ul li a{
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+
+a:hover {
+  color: #F7931E;
+}
