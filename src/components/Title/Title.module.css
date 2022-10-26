@@ -1,0 +1,32 @@
+.title {
+  display: flex;
+  flex-direction: column;
+
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 68px;
+  text-align: center;
+  color: #FFFFFF;
+  margin-bottom: 35px;
+}
+
+p {
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 34px;
+  text-align: center;
+  color: #FFFFFF;
+  margin-bottom: 55px;
+}
+
+
+.offer {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  color: #FFFFFF;
+}
