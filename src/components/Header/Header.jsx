@@ -14,7 +14,7 @@ export default function Header() {
         </div>
         <div className={styles.phone}>
             <li>
-                <a href="#">
+                <a href="/">
                     +7 (496) 416-19-16 
                 </a>
             </li>

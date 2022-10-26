@@ -6,27 +6,27 @@ export default function Nav() {
     <div className={styles.nav}>
        <ul>
                 <li>
-                    <a href="#">О нас</a>
+                    <a href="/">О нас</a>
                 </li>
             </ul>
             <ul>
                 <li>
-                    <a href="#">Галерея</a>
+                    <a href="/">Галерея</a>
                 </li>
             </ul>
             <ul>
                 <li>
-                    <a href="#">Абонементы</a>
+                    <a href="/">Абонементы</a>
                 </li>
             </ul>
             <ul>
                 <li>
-                    <a href="#">Тренеры</a>
+                    <a href="/">Тренеры</a>
                 </li>
             </ul>
             <ul>
                 <li>
-                    <a href="#">Контакты</a>
+                    <a href="/">Контакты</a>
                 </li>
             </ul>
     </div>
