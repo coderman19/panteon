@@ -1,0 +1,12 @@
+.section {
+  display: flex;
+  flex-direction: column;
+
+  background-image: url('../img/banner/bg-panteon.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 1441px;
+  /* height: 950px; */
+  margin: 0 auto;
+  text-align: center;
+}

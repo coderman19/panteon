@@ -1,0 +1,8 @@
+.btn {
+  cursor: pointer;
+  margin-bottom: 135px;
+}
+
+.btn:hover {
+  color: red;
+}

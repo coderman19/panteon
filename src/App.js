@@ -1,5 +1,4 @@
-import Header from './components/Header/Header';
-import Title from './components/Title/Title';
+import SectionOne from './SectionOne/Sectionone';
 import './App.css';
 // import bg from './img/banner/bg-panteon.jpg';
 
@@ -7,10 +6,8 @@ import './App.css';
 function App() {
   return (
     <div className="App">  
-     <div className='container'>
-      <Header />
-      <Title />
-     </div>
+    <SectionOne />
+    
     </div>
   );
 }
