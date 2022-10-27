@@ -1,0 +1,92 @@
+.newlife__inner {
+  display: grid;
+  grid-template-columns: 1fr 450px;
+  column-gap: 76px;
+  color: var(--light-text-color);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;      
+  margin: 0 80px;
+  margin-bottom: 140px;
+}
+
+.newlife__img:first-child {
+  margin-right: 30px;
+}
+
+.newlife__img:last-child {
+  transform: translateY(40px);
+}
+
+.content {
+  padding-top: 70px;
+}
+
+.content__title {
+  margin-bottom: 50px;
+}
+
+.content__text {
+  margin-bottom: 40px;
+}
+
+.content__link {
+  color: inherit;
+  font-weight: 700;
+  padding: 20px 33px;
+  border: 1px solid var(--light-text-color);
+}
+
+.newlife__list {
+  display: flex;
+  column-gap: 40px;
+  color: var(--light-text-color);
+  font-weight: 500;
+  font-size: 18px;  
+  padding-bottom: 25px;
+}
+
+.newlife__item {
+  display: flex;
+  align-items: center;  
+  column-gap: 25px;
+}
+
+.newlife__item:last-child {
+  position: relative;
+}
+
+.newlife__item:last-child:after {
+  position: absolute;
+  content: "";
+  display: block;
+  height: 2px;
+  width: 300px;
+  background-color: var(--accent-color);
+  bottom: -25px;
+  right: 0;
+}
+
+.newlife__item::before {
+  content: "";
+  display: block;
+  width: 64px;
+  height: 64px;  
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;  
+}
+
+.newlife__item:first-child:before {
+  background-image: url("./st-bike.svg");
+}
+
+.newlife__item:nth-child(2):before {
+  background-image: url("./dumbbell.svg");
+}
+.newlife__item:nth-child(3):before {
+  background-image: url("./location.svg");
+}
+.newlife__item:last-child:before {
+  background-image: url("./wallet.svg");
+}
