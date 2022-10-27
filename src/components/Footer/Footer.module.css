@@ -1,0 +1,12 @@
+.footer {
+  background-color: #000000;
+  max-width: 1441px;
+  margin: 0 auto;
+}
+
+.footerContent {
+  display: grid;
+  grid-template-columns: 196px 196px  98px 196px 196px 306px;
+  grid-template-rows: 240px;
+  gap: 30px;
+}
