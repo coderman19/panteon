@@ -8,9 +8,9 @@
 
 
 .container {
-  max-width: 14400px;
+  max-width: 1440px;
   margin: 0 auto;
-  padding: 0 60px;  
+  padding: 0 50px;  
 }
 
 a, ul, li {
@@ -18,7 +18,17 @@ a, ul, li {
   text-decoration: none;
 }
 
+img {
+  max-width: 100%;
+}
+
 body {
   min-width: 320px;
   min-height: 100vh;
+}
+
+@media (max-width: 860px) {
+  .container {
+    padding: 0 15px;   
+  }
 }
