@@ -1,0 +1,108 @@
+.questions {  
+  background-image: linear-gradient(rgba(12, 20, 23, 0.4), rgba(12, 20, 23, 0.4)), url("../../img/banner/bg-form.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: var(--light-text-color);
+  padding-top: 110px;
+  padding-bottom: 110px;
+}
+
+.form {  
+  margin-right: 10vw;
+  margin-left: auto;
+  max-width: 350px;
+  text-align: center;
+  }
+
+  .questions__title {
+    margin-bottom: 25px;
+  }
+
+  .questions__content {
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  .questions__content_bottom {  
+    margin-bottom: 30px;
+  }
+  
+  .questions__content-color {
+    color: var(--accent-color)
+  }
+
+  .form__input {
+    display: block;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid var(--light-text-color);
+    background-color: transparent;
+    color: inherit;    
+    font-size: 15px;
+    padding-bottom: 15px;
+    margin-bottom: 30px;
+    outline: none;
+  }
+
+  .form__btn {
+    font-weight: 700;
+    font-size: 16px;
+    width: 280px;
+    padding: 20px 0;
+    text-align: center;
+    border: 1px solid var(--light-text-color);
+    margin-bottom: 20px;
+  }
+
+  .form__content-after {
+    font-size: 14px;
+    line-height: 20px;
+    opacity: 0.5;
+    padding: 0 15px;
+  }
+
+@media(max-width: 1400px) {
+  .form {
+    margin-right: 80px;
+  }
+}
+
+  @media(max-width: 1300px) {
+    .questions {
+      background-image: linear-gradient(rgba(12, 20, 23, 0.4), rgba(12, 20, 23, 0.4)), url("../../img/banner/bg-form_768.jpg");
+    }
+  }
+
+  @media(max-width: 1200px) {
+    .questions {
+      padding-top: 99px;
+      padding-bottom: 118px;
+    }
+  }
+
+  @media(max-width: 1000px) {
+    .form {
+      margin-right: 50px;
+    }
+  }
+
+  @media(max-width: 800px) {
+    .form {
+      margin-right: 15px;
+    }
+  }
+  
+  @media(max-width: 760px) {
+    .questions {
+      background-image: linear-gradient(rgba(12, 20, 23, 0.4), rgba(12, 20, 23, 0.4)), url("../../img/banner/bg-form_320.jpg");
+    }
+    .form {
+      margin: 0 auto;
+      width: 100%;
+      padding: 80px 15px;
+    }
+  }
+  
+
+
+  

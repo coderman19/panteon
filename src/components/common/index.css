@@ -2,4 +2,6 @@
 @import "../common/var.css";
 @import "../common/section.css";
 @import "../newlife/newlife.css";
-/* @import "../gallery/gallery.css"; */
+@import "../gallery/gallery.css";
+@import "../trainers/trainers.css";
+@import "../questions/questions.css";
