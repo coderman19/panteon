@@ -1,0 +1,153 @@
+.contacts {
+  display: grid;
+  color: var(--light-text-color);  
+  grid-template-columns: 1fr;
+}
+
+.contacts__map {  
+  grid-column: 1 / 1;
+  grid-row: 1 / 1;
+}
+
+.contacts__img {  
+  height: 100%;
+  object-fit: cover;
+  object-position: 10%;
+}
+
+.contacts__inner {  
+  background-color: var(--dark-text-color);
+  width: 396px;
+  height: 449px;
+  padding: 50px 0 50px 50px;
+  text-align: left;
+  grid-column: 1 / 1;
+  grid-row: 1 / 1;
+  margin: 59px 164px;
+}
+
+.contacts__title {
+  margin-bottom: 50px;
+}
+
+.contacts__list {
+  display: flex;
+  flex-direction: column;
+  gap: 26px;
+  margin-bottom: 40px;
+}
+
+.item {
+  display: flex;
+  font-size: 16px;
+  gap: 16px;
+}
+
+.item__svg {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  color: var(--accent-color);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.item__svg_location {
+  background-image: url("../../img/icons/location_min.svg");
+}
+
+.item__svg_clock {
+  background-image: url("../../img/icons/clock.svg");
+}
+
+.item__svg_phone {
+  background-image: url("../../img/icons/phone.svg"); 
+}
+
+.item__svg_phone:hover {  
+
+  animation: call-phone 0.1s 3;
+}
+
+.item__svg_instagram {
+  background-image: url("../../img/icons/instagram.svg");
+}
+.item__svg_vk {
+  background-image: url("../../img/icons/vk.svg");
+}
+
+.item__svg_instagram:hover, 
+.item__svg_vk:hover {
+  transform: scale(1.2);
+  transition: transform 0.3s ease;
+}
+
+.item__text-inner {
+  display: flex;
+  flex-direction: column;
+  gap: 17px
+}
+
+.contacts__social {
+  font-weight: 400;
+  margin-bottom: 24px;
+}
+
+.item__svg_instagram {
+  margin-right: 15px;
+}
+
+@media (max-width: 1100px) {
+  .contacts__inner {   
+    width: 354px;    
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-left: 18px;
+  }
+  .contacts__img {
+    object-position: 35%;
+  }
+}
+
+@media (max-width: 600px) {
+  .contacts {
+    grid-template-rows: 2;
+    background-color: var(--dark-text-color);
+  }
+  .contacts__inner {  
+    grid-row: 2 / 2;
+    margin: 0 auto;
+    justify-self: center;
+    margin-left: 15px;
+    margin-right: 15px;
+    padding-left: 0;
+    padding-right: 5px;
+    width: 320px;
+  }
+  .contacts__title {    
+    text-align: center;
+  }
+  .contacts__list {
+    gap: 30px;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 600px) {
+  .contacts__map {
+    height: 235px;
+  }
+}
+
+@keyframes call-phone {
+  25% {
+    transform: rotate(20deg);
+    }
+  50% {
+    transform: rotate(40deg);
+  }  
+  75% {
+    transform: rotate(20deg);
+    }
+}

@@ -8,6 +8,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  
   <title>Panteon</title>
   <link rel="stylesheet" href="/src/components/common/index.css">
   
@@ -108,31 +109,80 @@
 
   </section>
 
+<section class="section payment">
+
+  <div class="payment__container">
+    <h2 class="title payment__title">Абонементы</h2>
+
+    <table class="table">
+      <thead>
+        <tr>
+          <th>Кол-во занятий</th>
+          <th>1 тренировка</th>
+          <th>4 тренировки</th>
+          <th>8 тренировок</th>
+          <th>12 тренировок</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Персональный тренинг с инструктором</td>
+          <td>700 руб.</td>
+          <td>2600 руб. (действителен в течение 3 недель)</td>
+          <td>5200 руб. (действителен в течение 6 недель)</td>
+          <td>7200 руб. (действителен в течение 10 недель)</td>
+        </tr>
+
+        <tr>
+          <td>Самостоятельные тренировки в тренажерном зале</td>
+          <td>250 руб.</td>
+          <td>—</td>
+          <td>1500 руб. (действителен в течении 30 дней)</td>
+          <td>2000 руб.(действителен в течении 30 дней)</td>
+        </tr>
+        
+        <tr>
+          <td>Зал групповых программ</td>
+          <td>300 руб.</td>
+          <td>—</td>
+          <td>2000 руб. (действителен в течении 30 дней)</td>
+          <td>2750 руб.(действителен в течении 45 дней)</td>
+        </tr>
+
+      </tbody>
+      
+    </table>
+
+
+  </div>
+
+</section>
+
   <section class="section trainers">
     <div class="container">
       <div class="trainers__wrap">
         <h2 class="title trainers__title">Тренеры</h2>
         <ul class="trainers__list">
-          <li class="trainers__item item">
-            <img class="item__img" src="../../src/img/banner/coach/img-1.jpg" alt="тренер">
-            <p class="item__title">Илья Панченко</p>
-            <p class="item__content">Персональный тренер</p>
-            <p class="item__content">Инструктор тренажерного зала</p>
-            <p class="item__content">Опыт работы — 4 года</p>
+          <li class="trainers__item tr-item">
+            <img class="tr-item__img" src="../../src/img/banner/coach/img-1.jpg" alt="тренер">
+            <p class="tr-item__title">Илья Панченко</p>
+            <p class="tr-item__content">Персональный тренер</p>
+            <p class="tr-item__content">Инструктор тренажерного зала</p>
+            <p class="tr-item__content">Опыт работы — 4 года</p>
           </li>
           
-          <li class="trainers__item item">
-            <img class="item__img" src="../../src/img/banner/coach/img-2.jpg" alt="тренер">
-            <p class="item__title">Екатерина Сосина-Нуньес</p>
-            <p class="item__content">Фитнес-тренер</p>
-            <p class="item__content">Опыт работы — 4 года</p>      
+          <li class="trainers__item tr-item">
+            <img class="tr-item__img" src="../../src/img/banner/coach/img-2.jpg" alt="тренер">
+            <p class="tr-item__title">Екатерина Сосина-Нуньес</p>
+            <p class="tr-item__content">Фитнес-тренер</p>
+            <p class="tr-item__content">Опыт работы — 4 года</p>      
           </li>
       
-          <li class="trainers__item item">
-            <img class="item__img" src="../../src/img/banner/coach/img-3.jpg" alt="тренер">
-            <p class="item__title">Юлия Белова</p>
-            <p class="item__content">Фитнес-тренер</p>
-            <p class="item__content">Опыт работы — 4 года</p>
+          <li class="trainers__item tr-item">
+            <img class="tr-item__img" src="../../src/img/banner/coach/img-3.jpg" alt="тренер">
+            <p class="tr-item__title">Юлия Белова</p>
+            <p class="tr-item__content">Фитнес-тренер</p>
+            <p class="tr-item__content">Опыт работы — 4 года</p>
           </li>
       
         </ul>
@@ -148,30 +198,82 @@
   </section>
 
   <section class="questions" id="questions">
-    <form action="" class="form">
-      <h2 class="title questions__title">
-        Остались вопросы?
-      </h2>
-      <p class="questions__content">
-        Оставьте Ваш номер телефона
-      </p> 
-      <p class="questions__content questions__content_bottom">
-        и мы <span class="questions__content-color">обязательно с Вами свяжемся</span>
-      </p> 
-      
-      <label>
-        <input class="form__input" type="text" name="name" placeholder="Введите имя">
-      </label>
-      <label>
-        <input class="form__input" type="tel" name="phone" placeholder="Введите телефон">
-      </label>
-      <button class="form__btn">Получить консультацию</button>
-      <p class="form__content-after">
-        Нажимая на кнопку вы соглашаетесь с политикой конфиденциальности
-      </p>
-    </form>
+    <div class="questions__container">
+      <form action="" class="form">
+        <h2 class="title questions__title">
+          Остались вопросы?
+        </h2>
+        <p class="questions__content">
+          Оставьте Ваш номер телефона
+        </p> 
+        <p class="questions__content questions__content_bottom">
+          и мы <span class="questions__content-color">обязательно с Вами свяжемся</span>
+        </p> 
+        
+        <label>
+          <input class="form__input" type="text" name="name" placeholder="Введите имя">
+        </label>
+        <label>
+          <input class="form__input" type="tel" name="phone" placeholder="Введите телефон">
+        </label>
+        <button class="form__btn">Получить консультацию</button>
+        <p class="form__content-after">
+          Нажимая на кнопку вы соглашаетесь с политикой конфиденциальности
+        </p>
+      </form>
+    </div>
+    
     
   </section>
+
+  <section class="section contacts">
+    <div class="contacts__map">
+      <img class="contacts__img" src="../../src/img/banner/bg-map.jpg" alt="карта г.Орехово-Зуево с местонахождением спортзала по адресу ул.Ленина, 84">
+    </div>
+      <div class="contacts__inner">
+
+        <h2 class="title contacts__title">
+          Контакты
+        </h2>
+        <ul class="contacts__list">
+          <li class="contacts__item item">
+            <span class="item__svg item__svg_location"></span>            
+            <p class="item__text">
+              г. Орехово-Зуево, ул. Ленина 84
+            </p>
+          </li>
+          <li class="contacts__item item">
+            <span class="item__svg item__svg_clock"></span>    
+            <p class="item__text">
+              Ежедневно с 8:00 до 23:00
+            </p>
+          </li>
+          <li class="contacts__item item">
+            <a href="tel:" class="item__svg item__svg_phone"></a>    
+            <div class="item__text-inner">
+              <a href="tel:" class="item__text">
+                +7 (496) 416-19-16,
+              </a>
+              <a href="tel:" class="item__text">            
+                +7 (925) 881-21-70
+              </a>
+            </div>            
+          </li>
+        </ul>
+        <p class="contacts__social">
+          Подписывайтесь на наши соц.сети
+        </p>
+        <a href="#">
+          <span class="item__svg  item__svg_instagram"></span>
+        </a>    
+          
+        <a href="#">
+          <span class="item__svg item__svg_vk"></span>
+        </a>    
+            
+    </div>
+  </section>
+
   
 </body>
 </html>

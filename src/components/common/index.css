@@ -3,5 +3,8 @@
 @import "../common/section.css";
 @import "../newlife/newlife.css";
 @import "../gallery/gallery.css";
+@import "../payment/payment.css";
 @import "../trainers/trainers.css";
 @import "../questions/questions.css";
+/* @import "../contacts/contacts.css"; */
+@import "../contacts1/contacts.css";

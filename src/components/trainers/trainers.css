@@ -18,23 +18,23 @@
   margin-bottom: 30px;
 }
 
-.item__img {
+.tr-item__img {
   margin-bottom: 20px;
 }
 
-.item__title {
+.tr-item__title {
   font-weight: 700;
   font-size: 16px;
   margin-bottom: 15px;
 }
 
-.item__content {
+.tr-item__content {
   font-weight: 400;
   font-size: 15px;
   opacity: 0.5;
 }
 
-.item__content:not(:last-child) {
+.tr-item__content:not(:last-child) {
   margin-bottom: 10px;
 }
 

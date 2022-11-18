@@ -1,0 +1,13 @@
+.payment {
+  background-color: var(--light-text-color);
+  color: var(--dark-text-color);
+}
+
+.payment__container {
+  padding: 0 175px;
+
+}
+
+.payment__title {
+  text-align: center;
+}

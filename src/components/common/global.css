@@ -27,6 +27,10 @@ a, ul, li {
   text-decoration: none;
 }
 
+a {
+  color: inherit;
+}
+
 img {
   max-width: 100%;
 }
